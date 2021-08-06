@@ -1,0 +1,162 @@
+{
+	"id": "8e3111c6-0c8a-411b-ead7-b679d8643e50",
+	"name": "Tarefas",
+	"description": "",
+	"order": [
+		"436daf5c-0bd5-d3be-cecd-98bcbcf9cd39",
+		"5b81c23b-fdc8-31ce-de80-73b848e26df1",
+		"d41c85aa-60a6-d789-1029-f3d6372cd36a",
+		"53369ffb-e566-2df1-7acd-baac5041c35d",
+		"650b9f4e-e9a2-8367-bb57-b0a075174c59"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1628188484997,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "436daf5c-0bd5-d3be-cecd-98bcbcf9cd39",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8e3111c6-0c8a-411b-ead7-b679d8643e50",
+			"data": null,
+			"dataMode": "params",
+			"name": "Listar tarefas",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1628188524106,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "53369ffb-e566-2df1-7acd-baac5041c35d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3030/tarefas/updateTitle/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "PATCH",
+			"collectionId": "8e3111c6-0c8a-411b-ead7-b679d8643e50",
+			"data": null,
+			"dataMode": "params",
+			"name": "Atualizar titulo da tarefa",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1628216308654,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5b81c23b-fdc8-31ce-de80-73b848e26df1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3030/tarefas/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8e3111c6-0c8a-411b-ead7-b679d8643e50",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Criar tarefa",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1628216055570,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"descricao\": \"nome da tarefar\",\n\t\"nomeColaborador\": \"nome do criador\"\n}"
+		},
+		{
+			"id": "650b9f4e-e9a2-8367-bb57-b0a075174c59",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3030/tarefas/replace/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "8e3111c6-0c8a-411b-ead7-b679d8643e50",
+			"data": null,
+			"dataMode": "params",
+			"name": "Substituir tarefa",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1628216363040,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d41c85aa-60a6-d789-1029-f3d6372cd36a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3030/tarefas/delete/:id",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628216164448,
+			"name": "Deletar tarefa",
+			"description": "",
+			"collectionId": "8e3111c6-0c8a-411b-ead7-b679d8643e50",
+			"responses": []
+		}
+	]
+}
