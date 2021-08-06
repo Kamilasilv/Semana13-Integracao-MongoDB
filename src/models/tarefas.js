@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
 
 const tarefasSchema = new mongoose.Schema({
+    id: {type: String},
     dataInclusao: {type:String},
     concluido: {type: Boolean},
-    descriçao: {type:String},
+    descricao: {type:String},
     nomeColaborador: {type:String}
 }, {
     versionKey: false
