@@ -1,66 +1,76 @@
 {"tarefas": [
   {
+    "id": "1kjhrfsh742",
     "dataInclusao": "2021-06-192T20:42:00Z",
     "concluido": false,
     "descricao": "Aprender como usar datas no javascript",
     "nomeColaborador": "Manoela"
   },
   {
+    "id": "1185jsgdf9",
     "dataInclusao": "2021-07-23T14:15:00Z",
     "concluido": true,
     "descricao": "Apresentar o projeto resolvido",
     "nomeColaborador": "Analu Magalhães"
   },
   {
+    "id": "125468dgdfj",
     "dataInclusao": "2021-05-02T18:39:52Z",
     "concluido": false,
     "descricao": " Pesquisar sobre métodos de iteração",
     "nomeColaborador": "Ana Cecilia"
   },
   {
+    "id": "958olmhscx",
     "dataInclusao": "2021-05-02T18:39:52Z",
     "concluido": false,
     "descricao": " Realizar inscrição no curso da Reprograma",
     "nomeColaborador": "Rayssa Oliveira"
   },
   {
+    "id": "74ktwesdc3",
     "dataInclusao": "2021-06-12T09:39:00Z",
     "concluido": false,
     "descricao": "Realizar testes no código da semana",
     "nomeColaborador": "José Ricardo"
   },
   {
-
+    "id": "65klomxsza",
     "dataInclusao": "2021-05-02T11:15:00Z",
     "concluido": false,
     "descricao": "Criar curriculo dev e linkedin",
     "nomeColaborador": "João Victor"
   },
   {
+    "id": "44grtwsqp7",
     "dataInclusao": "2021-07-07T15:29:00Z",
     "concluido": true,
     "descricao": " Pesquisar possiveis carreiras na tecnologia",
     "nomeColaborador": "Karine Rodrigues"
   },
   {
+    "id": "823601dsdv",
     "dataInclusao": "2021-07-07T15:21:00Z",
     "concluido": false,
     "descricao": " Criar cronograma de estudos dev",
     "nomeColaborador": "Karine Rodrigues"
   },
   {
+    "id": "763214kjuy",
     "dataInclusao": "2021-08-04T18:20:00Z",
     "concluido": false,
     "descricao": " Conclusão do CRUD projeto s10",
     "nomeColaborador": "Renan da Silva"
   },
   {
+    "id": "awed709juv",
     "dataInclusao": "2021-08-04T23:39:52Z",
     "concluido": true,
     "descricao": " Pesquisar sobre métodos de iteração",
     "nomeColaborador": "Ana Cecilia"
   },
   {
+    "id": "258thskd5u",
     "dataInclusao": "2021-08-04T23:50:00Z",
     "concluido": true,
     "descricao": " Pesquisar sobre uso do Foreach em javascript",
